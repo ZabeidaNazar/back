@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Time</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 16px);
+            background-color: #202123;
+            gap: 50px;
+        }
+
+        .time {
+            font-size: 60px;
+            color: #c5c5d2;
+        }
+    </style>
+</head>
+<body>
+    <div class="time" th:text="${time}"></div>
+</body>
+</html>

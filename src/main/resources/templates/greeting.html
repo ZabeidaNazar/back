@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="uk">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Вітання</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 16px);
+            background-color: #202123;
+            gap: 50px;
+        }
+
+        .message {
+            font-size: 60px;
+            color: #c5c5d2;
+        }
+    </style>
+</head>
+<body>
+<p class="message" th:text="|Hello, ${name}!|"></p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+spring:
+  docker:
+    compose:
+      profiles:
+        active: "dev"
+  application:
+    name: LeLviv
+#  config:
+#    activate:
+#      on-profile: dev
+server:
+  port: 8090
+
+
+
